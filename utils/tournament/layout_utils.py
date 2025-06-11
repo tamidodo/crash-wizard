@@ -128,7 +128,7 @@ def generate_tourney_highlights(df):
 
 def make_efficiency_bar_figure(df_efficiency):
     df_efficiency = df_efficiency.sort_values(by=["Efficiency"], ascending=False)
-    fig = px.bar(df_efficiency, x="Player", y="Efficiency", text_auto=True)
+    fig = px.bar(df_efficiency, x="player", y="Efficiency", text_auto=True)
     fig.update_layout(
         yaxis_title="Efficiency (%)",
     )
@@ -141,7 +141,7 @@ def make_points_played_bar_figure(df_points, stack_type):
         df_points = df_points.sort_values(by=["Total"], ascending=False)
         fig = px.bar(
             df_points,
-            x="Player",
+            x="player",
             y=["O", "D", "Not Recorded"],
             text_auto=True,
             color_discrete_sequence=[
@@ -155,7 +155,7 @@ def make_points_played_bar_figure(df_points, stack_type):
         df_points = df_points.sort_values(by=["Total"], ascending=False)
         fig = px.bar(
             df_points,
-            x="Player",
+            x="player",
             y=["Crash Score", "They Score"],
             text_auto=True,
             color_discrete_sequence=[
@@ -169,7 +169,7 @@ def make_points_played_bar_figure(df_points, stack_type):
         df_points = df_points.sort_values(by=["Played"], ascending=False)
         fig = px.bar(
             df_points,
-            x="Player",
+            x="player",
             y=["Played", "Sideline"],
             text_auto=True,
             color_discrete_sequence=[

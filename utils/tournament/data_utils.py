@@ -29,7 +29,7 @@ def calculate_max_score_runs(df, game):
 def most_player_ds(df):
     """Calculates which player(s) had the most direct Ds"""
     max_ds = df["Player_Forced_Ds"].max()
-    who_ds = df[df["Player_Forced_Ds"] == max_ds]["Player"].unique()
+    who_ds = df[df["Player_Forced_Ds"] == max_ds]["player"].unique()
     if len(who_ds) > 1:
         who_ds = ", ".join(who_ds)
     else:
@@ -117,7 +117,7 @@ def calculate_player_points_played(df, stack_type, line=True):
             df_points["Total"] = df_points["Crash Score"] + df_points["They Score"]
         else:
             df = df[["player", "Player_Scored/Assisted", "played"]]
-            df = df.groupby(["Player", "Player_Scored/Assisted"]).count().reset_index()
+            df = df.groupby(["player", "Player_Scored/Assisted"]).count().reset_index()
             df_points = df.pivot_table(
                 values="played", index="player", columns="Player_Scored/Assisted"
             ).reset_index()

@@ -252,7 +252,7 @@ def update_player_main_select(
     if len(handler_cutter) == 1:
         df_filtered = filter_handler_cutter(handler_cutter[0], df_filtered)
     player_list = []
-    filtered_players = df_filtered["Player"].unique()
+    filtered_players = df_filtered["player"].unique()
     for position in handler_cutter:
         position_list = filter_handler_cutter(position)
         for player in position_list:

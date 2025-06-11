@@ -2,7 +2,7 @@
 /* Global settings */
 /* *************** */
 
-/* black: rgb(8,8,8), red: rgb(217,48,49), grey: rgb(124 124 124), dark red: rgb(140, 28, 28)
+/* black: rgb(8,8,8), red: rgb(217,48,49), grey: rgb(124 124 124), dark red: rgb(240, 103, 103)
 
 
 body {
@@ -21,7 +21,7 @@ body {
 }
 
 .mantine-123gri0[data-active] {
-    border-color: rgb(140, 28, 28);
+    border-color: rgb(240, 103, 103);
     color: rgb(0, 0, 0);
 }
 
@@ -55,12 +55,12 @@ body {
 }
 
 .mantine-SegmentedControl-active {
-    background-color: rgb(140, 28, 28) !important;
+    background-color: rgb(240, 103, 103) !important;
 }
 
 .rc-slider-track {
 
-    background-color: rgb(140, 28, 28) !important;
+    background-color: rgb(240, 103, 103) !important;
 }
 
 .rc-slider-handle,
@@ -138,7 +138,7 @@ body {
 .glow:before {
     content: '';
     /* background: linear-gradient(145deg, rgb(140, 212, 234), rgb(1, 113, 152), rgb(140, 212, 234), rgb(1, 113, 152), rgb(140, 212, 234), rgb(1, 113, 152), rgb(140, 212, 234), rgb(1, 113, 152), rgb(140, 212, 234), rgb(1, 113, 152)); */
-    background: linear-gradient(145deg, rgb(217, 48, 49), rgb(140, 28, 28), rgb(217, 48, 49), rgb(140, 28, 28), rgb(217, 48, 49), rgb(140, 28, 28), rgb(217, 48, 49), rgb(140, 28, 28), rgb(217, 48, 49), rgb(140, 28, 28));
+    background: linear-gradient(145deg, rgb(217, 48, 49), rgb(240, 103, 103), rgb(217, 48, 49), rgb(240, 103, 103), rgb(217, 48, 49), rgb(240, 103, 103), rgb(217, 48, 49), rgb(240, 103, 103), rgb(217, 48, 49), rgb(240, 103, 103));
     position: absolute;
     top: -2px;
     left: -2px;
