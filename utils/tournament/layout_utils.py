@@ -142,7 +142,7 @@ def make_points_played_bar_figure(df_points, stack_type):
         fig = px.bar(
             df_points,
             x="player",
-            y=["O", "D", "Not Recorded"],
+            y=["O", "D"],
             text_auto=True,
             color_discrete_sequence=[
                 "rgb(1,113,152)",
@@ -210,13 +210,13 @@ def make_scoring_story_fig(df_scoring, game):
     )
     # separate halves
     fig.add_vline(
-        x=df_scoring.Half.searchsorted("Second") + 0.5,
+        x=df_scoring.half.searchsorted("Second") + 0.5,
         line_width=2,
         line_dash="dash",
         line_color="rgb(31,67,128)",
     )
     fig.add_annotation(
-        x=df_scoring.Half.searchsorted("Second"),
+        x=df_scoring.half.searchsorted("Second"),
         xanchor="right",
         y=0,
         yanchor="bottom",
@@ -224,7 +224,7 @@ def make_scoring_story_fig(df_scoring, game):
         text="First Half",
     )
     fig.add_annotation(
-        x=df_scoring.Half.searchsorted("Second") + 1,
+        x=df_scoring.half.searchsorted("Second") + 1,
         xanchor="left",
         y=0,
         yanchor="bottom",

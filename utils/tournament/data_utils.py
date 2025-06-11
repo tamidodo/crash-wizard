@@ -43,6 +43,8 @@ def most_assists_scores(df, only_one=None):
         (df["Player_Scored/Assisted"] == "Score")
         | (df["Player_Scored/Assisted"] == "Assist")
     ]
+    most_sa = 0
+    most_sa_player = ["Not Recorded"]
     for player in df_sa["player"].unique():
         sa_num = len(df_sa[df_sa["player"] == player])
         if sa_num == most_sa:
@@ -54,6 +56,8 @@ def most_assists_scores(df, only_one=None):
         most_sa_player = ", ".join(most_sa_player)
     else:
         most_sa_player = most_sa_player[0]
+    if most_sa_player == "Not Recorded":
+        most_sa = ""
     return most_sa, most_sa_player
 
 
@@ -104,7 +108,8 @@ def calculate_player_points_played(df, stack_type, line=True):
         df = df.groupby(["player", "offence_defence"]).sum().reset_index()
         df_points = df.pivot_table(
             values="played", index="player", columns="offence_defence"
-        ).reset_index()
+        ).reset_index().fillna(0)
+        df_points["Total"] = df_points["O"] + df_points["D"]
     if stack_type == "Line Scores/Doesn't Score":
         if line:
             df = df[["player", "crash_scored", "played"]]
@@ -113,26 +118,25 @@ def calculate_player_points_played(df, stack_type, line=True):
             df = df.groupby(["player", "crash_scored"]).sum().reset_index()
             df_points = df.pivot_table(
                 values="played", index="player", columns="crash_scored"
-            ).reset_index()
+            ).reset_index().fillna(0)
             df_points["Total"] = df_points["Crash Score"] + df_points["They Score"]
         else:
             df = df[["player", "Player_Scored/Assisted", "played"]]
             df = df.groupby(["player", "Player_Scored/Assisted"]).count().reset_index()
             df_points = df.pivot_table(
                 values="played", index="player", columns="Player_Scored/Assisted"
-            ).reset_index()
-            df_points = df_points.fillna(0)
+            ).reset_index().fillna(0)
 
     if stack_type == "% of Total":
-        df["Played_Group"] = df["Played"]
+        df["Played_Group"] = df["played"]
+        print(df)
         df.loc[df["Played_Group"] == True, "Played_Group"] = "Played"
         df.loc[df["Played_Group"] == False, "Played_Group"] = "Sideline"
-        df = df[["player", "Played_Group", "Played"]]
+        df = df[["player", "Played_Group", "played"]]
         df = df.groupby(["player", "Played_Group"]).count().reset_index()
         df_points = df.pivot_table(
             values="played", index="player", columns="Played_Group"
-        ).reset_index()
-        df_points = df_points.fillna(0)
+        ).reset_index().fillna(0)
 
     return df_points
 
