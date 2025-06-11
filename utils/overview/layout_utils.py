@@ -40,48 +40,22 @@ def main_page_ag_grid(df):
                 className="card glow",
                 style={"width": "95%"},
                 children=dag.AgGrid(
-                    enableEnterpriseModules=True,
-                    licenseKey="",
                     className="ag-theme-material",
-                    dashGridOptions={
-                        "columnHoverHighlight": True,
-                        "paginateChildRows": True,
-                        "groupRowRenderer": "agGroupCellRenderer",
-                        "skipHeaderOnAutoSize": True,
-                    },
-                    defaultColDef={"resizable": True, "sortable": True, "filter": True},
+                    columnSize="autoSize",
+                    defaultColDef={"resizable": True, "sortable": True, "filter": "agNumberColumnFilter"},
+                    dashGridOptions={"pagination": True, "paginationAutoPageSize": True},
                     rowData=df.to_dict("records"),
                     columnDefs=[
-                        {"field": "tournament", "rowGroup": True, "hide": True},
-                        {
-                            "field": "game",
-                            "rowGroup": True,
-                            "hide": True,
-                        },
-                        {
-                            "field": "player",
-                            "rowGroup": True,
-                            "hide": True,
-                        },
-                        {
-                            "field": "point",
-                        },
-                        {
-                            "field": "played",
-                        },
-                        {
-                            "field": "crash_scored",
-                        },
+                        {"field": "tournament"},
+                        {"field": "game"},
+                        {"field": "player"},
+                        {"field": "point"},
+                        {"field": "played"},
+                        {"field": "crash_scored"},
                         {"field": "offence_defence"},
-                        {
-                            "field": "Player_Scored/Asssisted",
-                        },
-                        {
-                            "field": "Player_Forced_Ds",
-                        },
-                        {
-                            "field": "crash_turns",
-                        },
+                        {"field": "Player_Scored/Asssisted"},
+                        {"field": "Player_Forced_Ds"},
+                        {"field": "crash_turns"},
                     ],
                 ),
             ),

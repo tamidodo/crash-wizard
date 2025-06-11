@@ -1,6 +1,6 @@
 dash
 dash-mantine-components==0.12.1
-dash-ag-grid==2.2.0
+dash-ag-grid
 dash-iconify==0.1.2
 pandas
 numpy
