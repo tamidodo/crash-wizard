@@ -14,11 +14,7 @@ def main_page_ag_grid(df):
                     as a team, as well as individuals. This is based on the line calling sheets and extra stats taken when available. 
 
                     There are three tabs:
-                    - The **Overview** tab currently contains a table with the raw data used for this app. It is grouped by Tournament > Game > Player and the 
-                    columns are Point (which point in the game is it), played (True or False), crash_scored (True or False), offence_defence (Did we start on O or D), 
-                    Player_Scored/Assisted (either Score, Assist or null), Player_Forced_Ds (number of Ds that player forced on that point),
-                    and crash_turns (number of time we lost posession of the disc on that point). Watch this space for more highlight cards soon, as we now have more than one 
-                    tournament's data!
+                    - The **Overview** tab currently contains a table with the raw data used for this app.
                     - The **Line Building** tab allows you to look at the combined efficiency of players, either as pairs or as pods. 
                     Filters and Controls are split into full page controls which will filter/change mode for the whole page, and controls specific to each graph.
                     - The **Tournament Deep Dive** tab allows you to take a closer look at the overall team stats for a given tournament, either for multiple games or a single game.
