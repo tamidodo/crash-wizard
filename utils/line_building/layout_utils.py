@@ -10,10 +10,10 @@ from dash_iconify import DashIconify
 
 
 def line_building_filters(df):
-    tourney_list = df["Tournament"].unique()
+    tourney_list = df["tournament"].unique()
     tourney_game_data = []
     for tourney in tourney_list:
-        game_list = df[df["Tournament"] == tourney]["Game"].unique()
+        game_list = df[df["tournament"] == tourney]["game"].unique()
         tourney_game_data.append(
             [{"key": game, "value": game, "title": game} for game in game_list]
         )

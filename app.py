@@ -246,7 +246,7 @@ def update_player_main_select(
     if triggered_id == "lb-xy-match-select":
         return no_update, no_update, no_update, y_player_sel, no_update
     if "all" not in games:
-        df_filtered = df[df["Game"].isin(games)]
+        df_filtered = df[df["game"].isin(games)]
     else:
         df_filtered = df
     if len(handler_cutter) == 1:
