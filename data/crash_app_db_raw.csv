@@ -1,0 +1,25 @@
+﻿tournament,game,point,half,offence_defence,player_1,player_2,player_3,player_4,player_5,player_6,player_7,crash_scored,crash_turns,player_forced_ds,player_assisted,player_scored
+Hamilton Round Robin,Crux,1,First,O,Dan,Greg,Morgan,Christine,Milha,Wendy,Audrey,TRUE,,,Morgan,Audrey
+Hamilton Round Robin,Crux,2,First,D,Luke,Kevin,Adam,Jeff,Victoria,Dev,Nicole,FALSE,,,,
+Hamilton Round Robin,Crux,3,First,O,Dan,Andy,Morgan,Jeremie,Tammy,Milha,Wendy,TRUE,,,Dan,Andy
+Hamilton Round Robin,Crux,4,First,D,Kevin,Jack,Jeff,Victoria,Dev,Chloe,Ellen,FALSE,,,,
+Hamilton Round Robin,Crux,5,Second,O,Andy,Greg,Jeremie,Tammy,Christine,Milha,Audrey,TRUE,,,Greg,Jeremie
+Hamilton Round Robin,Crux,6,Second,D,Luke,Kevin,Adam,Jack,Nicole,Chloe,Ellen,FALSE,,,,
+Hamilton Round Robin,Crux,7,Second,O,Dan,Andy,Greg,Morgan,Tammy,Wendy,Audrey,TRUE,,,Dan,Andy
+Hamilton Round Robin,Crux,8,Second,D,Adam,Jack,Jeff,Victoria,Dev,Nicole,Chloe,FALSE,,,,
+Hamilton Round Robin,Axiom,1,First,D,Luke,Kevin,Nicole,Chloe,Victoria,Jack,Dev,TRUE,,,,
+Hamilton Round Robin,Axiom,2,First,D,Andy,Greg,Milha,Wendy,Tammy,Dan,Jeremie,TRUE,,,,
+Hamilton Round Robin,Axiom,3,First,D,Kevin,Nicole,Chloe,Jack,Jeff,Adam,Ellen,FALSE,,,,
+Hamilton Round Robin,Axiom,4,First,O,Andy,Milha,Wendy,Dan,Morgan,Christine,Audrey,TRUE,,,Morgan,Christine
+Hamilton Round Robin,Axiom,5,Second,D,Luke,Kevin,Nicole,Victoria,Jeff,Ellen,Dev,TRUE,,,Dev,Nicole
+Hamilton Round Robin,Axiom,6,Second,D,Andy,Greg,Tammy,Jeremie,Morgan,Christine,Audrey,TRUE,,,Morgan,Christine
+Hamilton Round Robin,Axiom,7,Second,D,Kevin,Chloe,Jack,Jeff,Adam,Ellen,Dev,TRUE,,,Jeff,Ellen
+Hamilton Round Robin,Axiom,8,Second,D,Greg,Milha,Wendy,Tammy,Dan,Morgan,Christine,FALSE,,,,
+Hamilton Round Robin,Paradixm,1,First,D,Andy,Greg,Jeremie,Tammy,Christine,Milha,Audrey,TRUE,,,Andy,Tammy
+Hamilton Round Robin,Paradixm,2,First,D,Luke,Kevin,Adam,Jeff,Victoria,Dev,Ellen,TRUE,,,Dev,Ellen
+Hamilton Round Robin,Paradixm,3,First,D,Andy,Greg,Morgan,Dan,Christine,Wendy,Audrey,TRUE,,,Andy,Greg
+Hamilton Round Robin,Paradixm,4,First,D,Luke,Jack,Jeff,Victoria,Nicole,Chloe,Ellen,FALSE,,,,
+Hamilton Round Robin,Paradixm,5,Second,O,Morgan,Dan,Jeremie,Tammy,Milha,Wendy,Audrey,TRUE,,,Jeremie,Morgan
+Hamilton Round Robin,Paradixm,6,Second,D,Kevin,Adam,Jack,Jeff,Dev,Nicole,Chloe,TRUE,,,Dev,Jeff
+Hamilton Round Robin,Paradixm,7,Second,D,Andy,Greg,Morgan,Jeremie,Tammy,Christine,Milha,FALSE,,,,
+Hamilton Round Robin,Paradixm,8,Second,O,Luke,Kevin,Jack,Victoria,Dev,Chloe,Ellen,TRUE,,,Chloe,Ellen
