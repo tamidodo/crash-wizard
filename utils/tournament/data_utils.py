@@ -28,12 +28,22 @@ def calculate_max_score_runs(df, game):
 
 def most_player_ds(df):
     """Calculates which player(s) had the most direct Ds"""
-    max_ds = df["Player_Forced_Ds"].max()
-    who_ds = df[df["Player_Forced_Ds"] == max_ds]["player"].unique()
+    max_ds = 0
+    who_ds = ["Nobody"]
+    df = df[df["Player_Forced_Ds"] > 0]
+    for player in df["player"].unique():
+        d_num = len(df[df["player"] == player])
+        if d_num == max_ds:
+            who_ds.append(player)
+        if d_num > max_ds:
+            who_ds = [player]
+            max_ds = d_num
     if len(who_ds) > 1:
         who_ds = ", ".join(who_ds)
     else:
         who_ds = who_ds[0]
+    if who_ds == "Nobody":
+        max_ds = ""
     return max_ds, who_ds
 
 

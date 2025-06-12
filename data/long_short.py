@@ -1,4 +1,5 @@
 import pandas as pd
+import ast
 
 
 df = pd.read_csv("crash_app_db_raw.csv", header=0)
@@ -23,10 +24,7 @@ for _, row in df.iterrows():
     tournament = row["tournament"]
     players_at_tournament = tournament_players.get(tournament, [])
     played_this_point = set(row[player_columns].dropna())
-    forced_ds = row["player_forced_ds"] or []
-
-    if not isinstance(forced_ds, list):
-        forced_ds = [forced_ds]
+    forced_ds = ast.literal_eval(row["player_forced_ds"])
 
     for player in players_at_tournament:
         long_rows.append({
