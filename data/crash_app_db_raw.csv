@@ -41,37 +41,37 @@ MayDays,McFlick_1,15,Second,O,Sonja,Greg,Luke,Victoria,Sam,Morgan,Audrey,FALSE,2
 MayDays,McFlick_1,16,Second,O,Karen,Henri,Wendy,Adam,Christine,Nicole,Dan,TRUE,2,[] ,Adam,Nicole
 MayDays,McFlick_1,17,Second,D,Ellen,Jake,Sonja,Greg,Tammy,Jack,Audrey,TRUE,0,"[""Greg""]",Jake,Sonja
 MayDays,McFlick_1,18,Second,D,Chloe,Andy,Karen,Henri,Christine,Jeremie,Jeff,FALSE,1,"[""Henri""]",,
-MayDays,Torque,1,First,O,Wendy,Adam,Chloe,Andy,Nicole,Dan,Jeff,TRUE, ,[],Andy,Nicole
-MayDays,Torque,2,First,D,Milha,Luke,Ellen,Jake,Tammy,Victoria,Jack,TRUE,,[],Tammy,Jake
-MayDays,Torque,3,First,D,Adam,Chloe,Karen,Henri,Christine,Jeremie,Audrey,TRUE,,[],Henri,Audrey
-MayDays,Torque,4,First,D,Milha,Luke,Sonja,Greg,Tammy,Sam,Morgan,FALSE,,[],,
-MayDays,Torque,5,First,O,Wendy,Andy,Karen,Henri,Christine,Dan,Jeff,TRUE,,[],Jeff,Andy
-MayDays,Torque,6,First,D,Ellen,Jake,Sonja,Greg,Tammy,Victoria,Jack,FALSE,,[],,
-MayDays,Torque,7,First,O,Wendy,Adam,Chloe,Audrey,Nicole,Jeremie,Jeff,TRUE,,[],Jeff,Chloe
-MayDays,Torque,8,Second,D,Milha,Luke,Ellen,Jake,Victoria,Sam,Morgan,TRUE,,[],Luke,Morgan
-MayDays,Torque,9,Second,D,Chloe,Andy,Karen,Henri,Christine,Dan,Jeff,FALSE,,[],,
-MayDays,Torque,10,Second,O,Milha,Luke,Sonja,Greg,Tammy,Jack,Audrey,TRUE,,[],Jack,Audrey
-MayDays,Torque,11,Second,D,Wendy,Adam,Karen,Henri,Christine,Nicole,Jeremie,TRUE,,[],Wendy,Jeremie
-MayDays,Torque,12,Second,D,Ellen,Jake,Sonja,Greg,Victoria,Sam,Morgan,FALSE,,[],,
-MayDays,Torque,13,Second,O,Wendy,Adam,Andy,Karen,Dan,Jeff,Audrey,TRUE,,[],Dan,Karen
-MayDays,Torque,14,Second,D,Milha,Luke,Ellen,Tammy,Jack,Sam,Chloe,TRUE,,[],Jack,Chloe
-MayDays,Jungle Speed_1,1,First,O,Audrey,Karen,Henri,Wendy,Nicole,Jeff,Dan,FALSE,,[],,
-MayDays,Jungle Speed_1,2,First,O,Sonja,Greg,Milha,Luke,Victoria,Morgan,Jack,FALSE,,[],,
-MayDays,Jungle Speed_1,3,First,O,Karen,Adam,Chloe,Andy,Christine,Jeremie,Dan,FALSE,,[],,
-MayDays,Jungle Speed_1,4,First,O,Sonja,Ellen,Jake,Tammy,Sam,Jack,Audrey,FALSE,,[],,
-MayDays,Jungle Speed_1,5,First,O,Henri,Wendy,Adam,Chloe,Christine,Nicole,Jeremie,FALSE,,[],,
-MayDays,Jungle Speed_1,6,First,O,Sonja,Greg,Milha,Luke,Victoria,Sam,Morgan,TRUE,,[],Luke,Greg
-MayDays,Jungle Speed_1,7,First,D,Audrey,Karen,Henri,Wendy,Andy,Jeff,Dan,TRUE,,[],Dan,Audrey
-MayDays,Jungle Speed_1,8,First,D,Milha,Ellen,Jake,Tammy,Victoria,Morgan,Jack,TRUE,,[],Victoria,Jack
-MayDays,Jungle Speed_1,9,First,D,Audrey,Adam,Chloe,Andy,Christine,Nicole,Jeremie,FALSE,,[],,
-MayDays,Jungle Speed_1,10,First,O,Sonja,Greg,Milha,Luke,Jake,Tammy,Sam,TRUE,,[],Milha,Sonja
-MayDays,Jungle Speed_1,11,Second,D,Karen,Henri,Wendy,Andy,Nicole,Jeff,Dan,TRUE,,[],Henri,Karen
-MayDays,Jungle Speed_1,12,Second,D,Milha,Ellen,Jake,Victoria,Morgan,Jack,Audrey,TRUE,,[],Jake,Audrey
-MayDays,Jungle Speed_1,13,Second,D,Karen,Wendy,Adam,Chloe,Christine,Jeff,Jeremie,TRUE,,[],Jeremie,Jeff
-MayDays,Jungle Speed_1,14,Second,D,Sonja,Greg,Luke,Ellen,Tammy,Sam,Jack,TRUE,,[],Luke,Ellen
-MayDays,Jungle Speed_1,15,Second,D,Karen,Henri,Chloe,Andy,Nicole,Jeremie,Dan,TRUE,,[],Dan,Jeremie
-MayDays,Jungle Speed_1,16,Second,D,Milha,Luke,Ellen,Jake,Tammy,Victoria,Morgan,FALSE,,[],,
-MayDays,Jungle Speed_1,17,Second,O,Audrey,Wendy,Adam,Chloe,Christine,Jeff,Dan,FALSE,,[],,
+MayDays,Torque,1,First,O,Wendy,Adam,Chloe,Andy,Nicole,Dan,Jeff,TRUE,0,[],Andy,Nicole
+MayDays,Torque,2,First,D,Milha,Luke,Ellen,Jake,Tammy,Victoria,Jack,TRUE,1,"[""Jack""]",Tammy,Jake
+MayDays,Torque,3,First,D,Adam,Chloe,Karen,Henri,Christine,Jeremie,Audrey,TRUE,5,"[""Henri"", ""Chloe"", ""Audrey""]",Henri,Audrey
+MayDays,Torque,4,First,D,Milha,Luke,Sonja,Greg,Tammy,Sam,Morgan,FALSE,2,"[""Sam""]",,
+MayDays,Torque,5,First,O,Wendy,Andy,Karen,Henri,Christine,Dan,Jeff,TRUE,1,"[""Andy""]",Jeff,Andy
+MayDays,Torque,6,First,D,Ellen,Jake,Sonja,Greg,Tammy,Victoria,Jack,FALSE,1,[],,
+MayDays,Torque,7,First,O,Wendy,Adam,Chloe,Audrey,Nicole,Jeremie,Jeff,TRUE,3,"[""Jeremie"", ""Adam""]",Jeff,Chloe
+MayDays,Torque,8,Second,D,Milha,Luke,Ellen,Jake,Victoria,Sam,Morgan,TRUE,0,[],Luke,Morgan
+MayDays,Torque,9,Second,D,Chloe,Andy,Karen,Henri,Christine,Dan,Jeff,FALSE,2,"[""Karen""]",,
+MayDays,Torque,10,Second,O,Milha,Luke,Sonja,Greg,Tammy,Jack,Audrey,TRUE,1,[],Jack,Audrey
+MayDays,Torque,11,Second,D,Wendy,Adam,Karen,Henri,Christine,Nicole,Jeremie,TRUE,0,[],Wendy,Jeremie
+MayDays,Torque,12,Second,D,Ellen,Jake,Sonja,Greg,Victoria,Sam,Morgan,FALSE,1,"[""Jake""]",,
+MayDays,Torque,13,Second,O,Wendy,Adam,Andy,Karen,Dan,Jeff,Audrey,TRUE,0,[],Dan,Karen
+MayDays,Torque,14,Second,D,Milha,Luke,Ellen,Tammy,Jack,Sam,Chloe,TRUE,1,"[""Milha""]",Jack,Chloe
+MayDays,Jungle Speed_1,1,First,O,Audrey,Karen,Henri,Wendy,Nicole,Jeff,Dan,FALSE,1,[],,
+MayDays,Jungle Speed_1,2,First,O,Sonja,Greg,Milha,Luke,Victoria,Morgan,Jack,FALSE,3,"[""Greg""]",,
+MayDays,Jungle Speed_1,3,First,O,Karen,Adam,Chloe,Andy,Christine,Jeremie,Dan,FALSE,1,[],,
+MayDays,Jungle Speed_1,4,First,O,Sonja,Ellen,Jake,Tammy,Sam,Jack,Audrey,FALSE,1,[],,
+MayDays,Jungle Speed_1,5,First,O,Henri,Wendy,Adam,Chloe,Christine,Nicole,Jeremie,FALSE,1,[],,
+MayDays,Jungle Speed_1,6,First,O,Sonja,Greg,Milha,Luke,Victoria,Sam,Morgan,TRUE,1,[],Luke,Greg
+MayDays,Jungle Speed_1,7,First,D,Audrey,Karen,Henri,Wendy,Andy,Jeff,Dan,TRUE,1,"[""Dan"", ""Jeff""]",Dan,Audrey
+MayDays,Jungle Speed_1,8,First,D,Milha,Ellen,Jake,Tammy,Victoria,Morgan,Jack,TRUE,2,"[""Ellen""]",Victoria,Jack
+MayDays,Jungle Speed_1,9,First,D,Audrey,Adam,Chloe,Andy,Christine,Nicole,Jeremie,FALSE,1,[],,
+MayDays,Jungle Speed_1,10,First,O,Sonja,Greg,Milha,Luke,Jake,Tammy,Sam,TRUE,0,[],Milha,Sonja
+MayDays,Jungle Speed_1,11,Second,D,Karen,Henri,Wendy,Andy,Nicole,Jeff,Dan,TRUE,0,[],Henri,Karen
+MayDays,Jungle Speed_1,12,Second,D,Milha,Ellen,Jake,Victoria,Morgan,Jack,Audrey,TRUE,0,[],Jake,Audrey
+MayDays,Jungle Speed_1,13,Second,D,Karen,Wendy,Adam,Chloe,Christine,Jeff,Jeremie,TRUE,0,[],Jeremie,Jeff
+MayDays,Jungle Speed_1,14,Second,D,Sonja,Greg,Luke,Ellen,Tammy,Sam,Jack,TRUE,0,[],Luke,Ellen
+MayDays,Jungle Speed_1,15,Second,D,Karen,Henri,Chloe,Andy,Nicole,Jeremie,Dan,TRUE,0,"[""Andy""]",Dan,Jeremie
+MayDays,Jungle Speed_1,16,Second,D,Milha,Luke,Ellen,Jake,Tammy,Victoria,Morgan,FALSE,1,[],,
+MayDays,Jungle Speed_1,17,Second,O,Audrey,Wendy,Adam,Chloe,Christine,Jeff,Dan,FALSE,2,[],,
 MayDays,Cranky,1,First,O,Chloe,Andy,Sonja,Greg,Christine,Jeremie,Jack,TRUE,,[],Christine,Chloe
 MayDays,Cranky,2,First,D,Ellen,Jake,Karen,Henri,Tammy,Nicole,Dan,TRUE,,[],Jake,Dan
 MayDays,Cranky,3,First,D,Chloe,Andy,Wendy,Audrey,Victoria,Jack,Jeff,FALSE,,[],,
